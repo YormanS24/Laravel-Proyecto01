@@ -23,6 +23,10 @@
         a{
             text-decoration: none;
         }
+
+        .button-container{
+            display: flex;
+        }
     </style>
 
     <title>Document</title>
@@ -55,7 +59,6 @@
 </nav>
 
         @yield('content')
-
 
 </body>
 </html>
